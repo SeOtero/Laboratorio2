@@ -71,7 +71,7 @@ public class TestLaboratorio2 {
         System.out.print("Vehiculo más Barato: " );
         list
                 .stream()
-                .filter(p->p.getPrecio()==VehiculoMasBarato)
+                .filter(v->v.getPrecio()==VehiculoMasBarato)
                 .forEach(v->System.out.println(v.getMarca()+" "+v.getModelo()));
     }
 
